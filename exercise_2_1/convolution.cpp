@@ -44,7 +44,7 @@ std::vector<double> applyConvolution(std::vector<double> x, std::vector<double> 
 }
 
 void printVector(std::vector<double> vec) {
-  std::cout << "y: {";
+  std::cout << "{";
   for (int i = 0; i < vec.size(); i++) {
     if (i == vec.size() - 1) {
       std::cout << vec[i];
